@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block title %}Logins{% endblock %}
+{% block content %}
+<div class="row">
+    <div class="col-md-15 mx-auto social-container my-1 order-md-1">
+        <button class="btn btn-primary mb-2">
+            <a href="{% url 'social:begin' 'facebook' %}">Login com Facebook</a>
+        </button>
+    </div>
+</div>
+{% endblock %}
